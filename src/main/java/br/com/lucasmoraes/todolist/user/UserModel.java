@@ -10,7 +10,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Data
+@Data // RESPONSÁVEL POR GERAR MÉTODOS GETTERS E SETTERS
 @Entity(name = "tb_users")
 public class UserModel {
 
