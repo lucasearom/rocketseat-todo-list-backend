@@ -18,7 +18,7 @@ public class TaskModel {
     @GeneratedValue(generator = "UUID")
     private UUID id;
     private String description;
-    @Column(length = 50)
+    @Column(length = 50) // TAMANHO MÁXIMO DE 50 CARACTERES
     private String title;
     private LocalDateTime startAt;
     private LocalDateTime endAt;
